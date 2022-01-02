@@ -46,13 +46,11 @@ if(isset($_POST['submit'])){
 		if ($result = $connect -> query("SELECT * FROM `lists` WHERE name= '$name'")) {
 		$res = $result -> fetch_assoc();		
 		 echo "<tr><td>".$res["id"]."</td><td>".$res["name"]."</td><td>".$res["age"]."</td><td>".$res["wants"]."</td></tr>";	
-}
+	}
+	else {
 	?>
 	
 						 <tbody>
-							<?php 
-							{
-							?>
 							<tr>
 							   <td></td> &nbsp;
 							   <td></td> &nbsp;
