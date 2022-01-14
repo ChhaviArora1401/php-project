@@ -46,9 +46,9 @@ include('inc/header.php');
 				
 				<h3 class="text-center"> <strong>Your Order Number:</strong> <span style="color: blue;"><?php echo $_GET['order']; ?></span> </h3>
 				
-				<h3 class="text-center">Enjoy our <a href="index.php">Food Zone!</a></h3>
+				<h3 class="text-center">Enjoy our <a href="welcome.php">Food Zone!</a></h3>
 			<?php } else { ?>
-				<h3 class="text-center">Enjoy our <a href="index.php">Food Zone!</a></h3>
+				<h3 class="text-center">Enjoy our <a href="welcome.php">Food Zone!</a></h3>
 			<?php } ?>	 
 		</div>	  
     </div>	

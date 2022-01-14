@@ -8,7 +8,7 @@ $db = $database->getConnection();
 $customer = new Customer($db);
 
 if($customer->loggedIn()) {	
-	header("Location: index.php");	
+	header("Location: welcome.php");	
 }
 
 $loginMessage = '';
@@ -16,7 +16,7 @@ if(!empty($_POST["login"]) && !empty($_POST["email"]) && !empty($_POST["password
 	$customer->email = $_POST["email"];
 	$customer->password = $_POST["password"];	
 	if($customer->login()) {
-		header("Location: index.php");	
+		header("Location: welcome.php");	
 	} else {
 		$loginMessage = 'Invalid login! Please try again.';
 	}
@@ -50,7 +50,7 @@ include('inc/header.php');
 					
 					<div style="margin-top:10px" class="form-group">                               
 						<div class="col-sm-12 controls">
-						  <input type="submit" name="login" value="Login" class="btn btn-info">						  
+						  <input type="submit" name="login" value="Login" class="btn btn-info">		  
 						</div>						
 					</div>					
 					

@@ -2,8 +2,8 @@
 if (isset($_SESSION["name"])) {
   ?>
    <ul class="nav navbar-nav navbar-right">
-	<li><a href="#"><span class="glyphicon glyphicon-user"></span> Welcome <?php echo $_SESSION["name"]; ?> </a></li>
-	<li class="active" ><a href="index.php"><span class="glyphicon glyphicon-cutlery"></span> Food List </a></li>
+	<li style="margin-top: 4%"><span class="glyphicon glyphicon-user"></span> Welcome <?php echo $_SESSION["name"]; ?></li>
+	<li class="active" ><a href="welcome.php"><span class="glyphicon glyphicon-cutlery"></span> Food List </a></li>
 	<li><a href="cart.php"><span class="glyphicon glyphicon-shopping-cart"></span> Cart  (<?php
 	  if(isset($_SESSION["cart"])){
 	  $count = count($_SESSION["cart"]); 

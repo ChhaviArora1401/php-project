@@ -14,7 +14,7 @@ class Customer {
 				SELECT * FROM ".$this->customerTable." 
 				WHERE email = ? AND password = ?";			
 			$stmt = $this->conn->prepare($sqlQuery);
-			$password = md5($this->password);
+			$password = ($this->password);
 			$stmt->bind_param("ss", $this->email, $password);	
 			$stmt->execute();
 			$result = $stmt->get_result();

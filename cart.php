@@ -106,14 +106,14 @@ include('inc/header.php');
 			</tr>
 			</table>
 			<?php
-			echo '<a href="cart.php?action=empty"><button class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Empty Cart</button></a>&nbsp;<a href="index.php"><button class="btn btn-warning">Add more items</button></a>&nbsp;<a href="checkout.php"><button class="btn btn-success pull-right"><span class="glyphicon glyphicon-share-alt"></span> Check Out</button></a>';
+			echo '<a href="cart.php?action=empty"><button class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Empty Cart</button></a>&nbsp;<a href="welcome.php"><button class="btn btn-warning">Add more items</button></a>&nbsp;<a href="checkout.php"><button class="btn btn-success pull-right"><span class="glyphicon glyphicon-share-alt"></span> Check Out</button></a>';
 			?>
 		<?php
 		} elseif(empty($_SESSION["cart"])){
 		?>
 			<div class="container">
 			<div class="jumbotron">
-			<h3>Your cart is empty. Enjoy <a href="index.php">food list</a> here.</h3>        
+			<h3>Your cart is empty. Enjoy <a href="welcome.php">food list</a> here.</h3>        
 			</div>      
 			</div>    
 		<?php
