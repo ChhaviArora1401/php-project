@@ -26,9 +26,10 @@ if(!empty($_POST["login"]) && !empty($_POST["email"]) && !empty($_POST["password
 include('inc/header.php');
 ?>
 <?php include('inc/container.php');?>
+<div class="bg-lo"></div>
 <div class="content"> 
 	<div class="container-fluid">			
-        <div class="col-md-6">                    
+        <div class="col-md-6 center">                    
 		<div class="panel panel-info">
 			<div class="panel-heading" style="background:#5bc0de;color:white;">
 				<div class="panel-title">Customer Log In</div>                        
@@ -49,7 +50,8 @@ include('inc/header.php');
 					
 					<div style="margin-top:10px" class="form-group">                               
 						<div class="col-sm-12 controls">
-						  <input type="submit" name="login" value="Login" class="btn btn-info">		  
+						  <input type="submit" name="login" value="Login" class="btn btn-info" style="display: block;
+    margin: auto;">		  
 						</div>						
 					</div>					
 					

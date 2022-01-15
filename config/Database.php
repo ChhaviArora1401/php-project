@@ -2,10 +2,10 @@
 session_start();
 class Database{
 	
-	private $host = 'localhost';
-    private $user ='root';
-    private $password = "";
-    private $database = "demo"; 
+	private $host = 'sql201.epizy.com';
+    private $user ='epiz_30823510';
+    private $password = "bsfwoUf1fE47";
+    private $database = "epiz_30823510_demo"; 
     
     public function getConnection(){		
 		$conn = new mysqli($this->host, $this->user, $this->password, $this->database);

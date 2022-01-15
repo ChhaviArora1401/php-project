@@ -34,7 +34,7 @@ include('inc/header.php');
 	
 <div class="content"> 
 	<div class="container-fluid">			
-    <div class="col-md-6 main">     
+    <div class="col-lg-12 main">     
       <h1 class="main-heading"> THE SUNRISE CAFE </h1>                 
     </div>       
   </div>  

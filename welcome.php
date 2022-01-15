@@ -14,7 +14,6 @@ if(!$customer->loggedIn()) {
 }
 include('inc/header.php');
 ?>
-<title>Food Ordering System</title>
   <link rel="stylesheet" type = "text/css" href ="css/foods.css">
 <?php include('inc/container.php');?>
 <div class="bg-we"></div>

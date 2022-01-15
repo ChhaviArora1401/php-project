@@ -14,7 +14,7 @@ ALTER TABLE `food_customer`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
   INSERT INTO `food_customer` (`id`, `name`, `email`, `password`, `phone`, `address`) VALUES
-(1, 'hh', 'hey', 'hello123', '1234567890', 'A - 1111 Street road, Newyork USA.');
+(1, 'cafe', 'cafe@gmail.com', 'sunrisecafe', '1234567890', 'Pitampura, New Delhi, Delhi-110034');
 
 
 
