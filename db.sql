@@ -14,7 +14,7 @@ ALTER TABLE `food_customer`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
   INSERT INTO `food_customer` (`id`, `name`, `email`, `password`, `phone`, `address`) VALUES
-(1, 'Chris Morris', 'chris@phpzag.com', '202cb962ac59075b964b07152d234b70', '1234567890', 'A - 1111 Street road, Newyork USA.');
+(1, 'hh', 'hey', 'hello123', '1234567890', 'A - 1111 Street road, Newyork USA.');
 
 
 
@@ -35,25 +35,26 @@ ALTER TABLE `food_items`
 
   INSERT INTO `food_items` (`id`, `name`, `price`, `description`, `images`, `status`) VALUES
 (58, 'Masala Paneer Kathi Roll', 100, 'Yammi Masala Paneer Kathi Roll loaded with Masala Paneer chunks, onion & Mayo.', 'Masala_Paneer_Kathi_Roll.jpg', 'ENABLE'),
-(59, 'Grilled Fish', 90, 'A whole Pomfret fish grilled with tangy marination & served with grilled onions and tomatoes.', 'Meurig.jpg', 'ENABLE'),
+(59, 'Waffle', 90, 'Freshly Baked Crispy Belgian Waffle with Home Made Nutella & & crushed nuts served with Vanilla Ice Cream.', 'waffle.jpg', 'ENABLE'),
 (60, 'Chocolate Hazelnut Truffle', 199, 'This very delicious chocolate hazelnut truffle.', 'Chocolate_Hazelnut_Truffle.jpg', 'ENABLE'),
 (61, 'Choco Chip Shake', 97, 'Choco Chip Shake - a perfect party sweet treat.', 'Happy_Happy_Choco_Chip_Shake.jpg', 'ENABLE'),
-(62, 'Spring Rolls', 55, 'Delicious Spring Rolls', 'Spring_Rolls.jpg', 'ENABLE'),
+(62, 'Spring Rolls', 55, 'Delicious Spring Rolls', 'spring_roll.jpg', 'ENABLE'),
 (63, 'Deluxe Thali', 77, 'Deluxe Thali is accompanied by Kattapa Biriyani, Devasena Paratha, Bhalladeva Patiala Lassi', 'Baahubali_Thali.jpg', 'ENABLE'),
-(65, 'Coffee', 35, 'concentrated coffee made by forcing pressurized water through finely ground coffee beans.', 'coffee.jpg', 'DISABLE'),
+(65, 'Coffee', 35, 'concentrated coffee made by forcing pressurized water through finely ground coffee beans.', 'coffee.jpg', 'ENABLE'),
 (66, 'Tea', 66, 'The simple elixir of tea is of our natural world.', 'tea.jpg', 'DISABLE'),
-(68, 'Paneer', 33, 'it is masala paneer for you.', 'paneer pakora.jpg', 'DISABLE'),
-(69, 'Coffee', 88, 'concentrated coffee made by forcing pressurized water through finely ground coffee beans.', 'coffee.jpg', 'ENABLE'),
-(70, 'Tea', 33, 'The simple elixir of tea is of our natural world.', 'tea.jpg', 'ENABLE'),
-(71, 'Samosa', 55, 'Masala Samosa..', 'samosa.jpg', 'ENABLE'),
-(72, 'Paneer Pakora', 44, 'Tasty paneer pakora', 'paneer pakora.jpg', 'ENABLE'),
-(73, 'Puff', 33, 'Vegetable Puff, a snack with crisp-n-flaky outer layer and mixed vegetables stuffing', 'puff.jpg', 'ENABLE'),
-(74, 'Pizza', 123, 'Good and Tasty Pizza', 'Pizza.jpg', 'DISABLE'),
-(75, 'French Fries', 220, 'Pure Veg and Tasty.', 'frenchfries.jpg', 'DISABLE'),
-(76, 'Pakora', 213, 'Pure Vegetable and Tasty.', 'Pakora.jpg', 'DISABLE'),
-(77, 'Pizza', 450, 'Pure Vegetable and Tasty.', 'Pizza.jpg', 'ENABLE'),
-(78, 'French Fries', 150, 'Pure Veg and Tasty.', 'frenchfries.jpg', 'ENABLE'),
-(79, 'Pakora', 350, 'TASTY', 'Pakora.jpg', 'ENABLE');
+(67, 'Paneer Pakora', 44, 'Tasty paneer pakora', 'paneer pakora.jpg', 'ENABLE'),
+(68, 'Samosa', 55, 'Masala Samosa..', 'samosa.jpg', 'ENABLE'),
+(69, 'Puff', 33, 'Vegetable Puff, a snack with crisp-n-flaky outer layer and mixed vegetables stuffing', 'puff.jpg', 'ENABLE'),
+(70, 'Pizza', 123, 'Good and Tasty Pizza', 'Pizza.jpg', 'DISABLE'),
+(71, 'French Fries', 220, 'Pure Veg and Tasty.', 'frenchfries.jpg', 'DISABLE'),
+(72, 'Pakora', 213, 'Pure Vegetable and Tasty.', 'Pakora.jpg', 'DISABLE'),
+(73, 'Churros', 100, 'Crispy churros layered with milk, white and dark chocolate.', 'Churros.jpg', 'ENABLE'),
+(74, 'cookies n cream', 150, 'smooth creamy and rich texture', 'oreoicecream.jpg', 'ENABLE'),
+(75, 'Singapore-style Noodles', 190, 'healthy vegetarian noodles with white button mushrooms along with some carrots and capsicum', 'singapuri.jfif', 'ENABLE'),
+(76, 'Pasta', 190, 'Spicy tomato sauce with fresh garden vegetables', 'pasta.jpg', 'ENABLE'),
+(77, 'Garlic Bread', 150, 'Enriched with our authentic secret garlic spread, herbs and hot melting Mozzarella cheese', 'garlic.jpg', 'ENABLE'),
+(78, 'Brownie', 80, 'Gooey fudgey chocolatey goodness', 'brownie.jpg', 'ENABLE');
+
 
 
 

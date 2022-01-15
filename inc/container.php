@@ -1,5 +1,5 @@
-</head>
 <body class="">
+  <link rel="stylesheet" href="css\index.css">
 <div role="navigation" class="navbar navbar-default navbar-static-top">
       <div class="container">
         <div class="navbar-header">
@@ -9,7 +9,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="./index.php" class="navbar-brand">food web</a>
+          <a href="./index.php" class="navbar-brand" style="padding-top:5px"><div class="logo"><img src="images/logo.jpg"/></div></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">

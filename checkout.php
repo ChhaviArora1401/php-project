@@ -12,8 +12,8 @@ if(!$customer->loggedIn()) {
 }
 include('inc/header.php');
 ?>
-<title>phpzag.com : Demo Online Food Ordering System with PHP & MySQL</title>
   <link rel="stylesheet" type = "text/css" href ="css/foods.css">
+  <div class="bg-ca"></div>
 <?php include('inc/container.php');?>
 <div class="content">
 	<div class="container-fluid">		

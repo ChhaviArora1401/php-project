@@ -62,8 +62,8 @@ if(isset($_GET["action"])){
 		
 include('inc/header.php');
 ?>
-<title>phpzag.com : Demo Online Food Ordering System with PHP & MySQL</title>
 <?php include('inc/container.php');?>
+<div class="bg-ca"></div>
 <div class="content">
 	<div class="container-fluid">		
 		<div class='row'>		
@@ -106,7 +106,11 @@ include('inc/header.php');
 			</tr>
 			</table>
 			<?php
-			echo '<a href="cart.php?action=empty"><button class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Empty Cart</button></a>&nbsp;<a href="welcome.php"><button class="btn btn-warning">Add more items</button></a>&nbsp;<a href="checkout.php"><button class="btn btn-success pull-right"><span class="glyphicon glyphicon-share-alt"></span> Check Out</button></a>';
+			echo '<a href="cart.php?action=empty"><button class="btn btn-danger">
+			<span class="glyphicon glyphicon-trash"></span> Empty Cart</button></a>&nbsp;<a href="welcome.php">
+			<button class="btn btn-warning">Add more items</button></a>&nbsp;<a href="checkout.php">
+			<button class="btn btn-success pull-right"><span class="glyphicon glyphicon-share-alt">
+			</span> Check Out</button></a>';
 			?>
 		<?php
 		} elseif(empty($_SESSION["cart"])){

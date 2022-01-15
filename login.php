@@ -25,7 +25,6 @@ if(!empty($_POST["login"]) && !empty($_POST["email"]) && !empty($_POST["password
 }
 include('inc/header.php');
 ?>
-<title>Food Ordering System</title>
 <?php include('inc/container.php');?>
 <div class="content"> 
 	<div class="container-fluid">			
